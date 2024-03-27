@@ -10,9 +10,13 @@ To deploy the project locally, proceed as follows:
 ### Backend
 1. Clone this repository to your local environment.
 2. Navigate to the `back` directory.
-3. execute the following commands to install dependencias and initiate the server:
+3. Run the following command to install dependencies:
 ```bash
 npm i
+```
+4. Create a .env file in the back directory and configure necessary environment variables (such as MongoDB credentials).
+5. Start the server with the following command:
+```bash
 npm start
 ```
 
