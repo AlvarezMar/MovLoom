@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Heebo:wght@400;700&family=Lexend:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="assets/logo.svg">
+
+    <title>MovLoom</title>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <div class="site">
+                <img src="assets/logo.svg" alt="MovLoom Logo">
+                <h2 class="MovLoom">Mov<span>Loom</span></h2>
+            </div>
+
+            <nav class="navbar">
+                <div class="navbar_container">
+                    <a class="selected" href="./">Home</a>
+                    <a href="./pages/commingSoon.html">Comming Soon</a>
+                    <a href="./pages/cinemaHistory.html">Cinema History</a>
+                    <a href="./pages/form.html">Form</a>
+                    <a href="./pages/gallery.html">Gallery</a>
+                    <a href="./pages/about.html">About</a>
+                </div>
+            </nav>
+        </div>
+        <div class="container centered">
+            <input class="searchbar" placeholder="Search for a movie, TV show or celebrity." type="search">
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <div class="information">
+                <div>
+                    <p><span>Mov</span>Loom</p>
+                    <h1 class="information_header">Unlimited <span>Movies</span>, TV Shows, & More.</h1>
+                </div>
+                <img class="information_img" src="assets/home/img-pink-shape-cinema.png" alt="Image of Cinema Seats">
+            </div>
+        </div>
+    </section>
+
+    <section class="main_content container">
+        <main class="movies">
+            <h2 class="container">Online Movies</h2>
+            <div id="container" class="container movies_container">
+            </div>
+        </main>
+    
+        <aside class="container">
+            <h2 class="container">Featured Movies</h2>
+            <div id="featured"></div>
+        </aside>
+    </section>
+
+    <footer>
+        <p>All Rights Reserved. Juan Carlos Alvarez Martinez. <span>&copy; MovLoom.</span> 2024.</p>
+    </footer>
+    
+    <script src="public/bundle.js"></script>
+
+</body>
+</html>

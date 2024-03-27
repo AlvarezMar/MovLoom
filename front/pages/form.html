@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Heebo:wght@400;700&family=Lexend:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="../assets/logo.svg">
+    
+    <title>MovLoom</title>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <div class="site">
+                <img src="../assets/logo.svg" alt="MovLoom Logo">
+                <h2 class="MovLoom">Mov<span>Loom</span></h2>
+            </div>
+
+            <nav class="navbar">
+                <div class="navbar_container">
+                    <a href="../">Home</a>
+                    <a href="commingSoon.html">Comming Soon</a>
+                    <a href="cinemaHistory.html">Cinema History</a>
+                    <a class="selected" href="form.html">Form</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="about.html">About</a>
+                </div>
+            </nav>
+        </div>
+        <div class="container centered">
+            <input class="searchbar" placeholder="Search for a movie, TV show or celebrity." type="search">
+        </div>
+    </header>
+
+    <main class="form_section">
+        <div class="form_container">
+            <h2>Add a <span>Movie</span></h2>
+            <form class="form">
+                <div>
+                    <div class="field">
+                        <h3>Title:</h3>
+                        <input id="title" class="textbox" type="text" placeholder="Enter the Title">
+                    </div>
+                    <div class="field">
+                        <h3>Director:</h3>
+                        <input id="director" class="textbox" type="text" placeholder="Enter the Director">
+                    </div>  
+                </div>
+
+                <div class="scnd_row">
+                    <div class="field">
+                        <h3>Year:</h3>
+                        <input id="year" class="textbox" type="text" placeholder="Enter the Year">
+                    </div>
+                    <div class="field">
+                        <h3>Duration:</h3>
+                        <input id="duration" class="textbox" type="text" placeholder="Enter the Duration">
+                    </div>
+                    <div class="field">
+                        <h3>Rate:</h3>
+                        <input id="rate" class="textbox" type="text" placeholder="Enter a rating">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <h3>Genre(s):</h3>
+                    <div class="genres">
+                        <div>
+                            <input id="action" class="textbox" type="checkbox" value="Action">
+                            <label for="action">Action</label>
+                        </div>
+
+                        <div>
+                            <input id="adventure" class="textbox" type="checkbox" value="Adventure">
+                            <label for="adventure">Adventure</label>
+                        </div>
+
+                        <div>
+                            <input id="comedy" class="textbox" type="checkbox" value="Comedy">
+                            <label for="comedy">Comedy</label>
+                        </div>
+
+                        <div>
+                            <input id="fantasy" class="textbox" type="checkbox" value="Fantasy">
+                            <label for="fantasy">Fantasy</label>
+                        </div>
+
+                        <div>
+                            <input id="sci-fi" class="textbox" type="checkbox" value="Sci-Fi">
+                            <label for="sci-fi">Sci-Fi</label>
+                        </div>
+
+                        <div>
+                            <input id="thriller" class="textbox" type="checkbox" value="Thriller">
+                            <label for="thriller">Thriller</label>
+                        </div>
+
+                        <div>
+                            <input id="crime" class="textbox" type="checkbox" value="Crime">
+                            <label for="crime">Crime</label>
+                        </div>
+
+                        <div>
+                            <input id="romance" class="textbox" type="checkbox" value="Romance">
+                            <label for="romance">Romance</label>
+                        </div>
+
+                        <div>
+                            <input id="Biography" class="textbox" type="checkbox" value="Biography">
+                            <label for="Biography">Biography</label>
+                        </div>
+
+                        <div>
+                            <input id="history" class="textbox" type="checkbox" value="History">
+                            <label for="history">History</label>
+                        </div>
+
+                        <div>
+                            <input id="mystery" class="textbox" type="checkbox" value="Mystery">
+                            <label for="mystery">Mystery</label>
+                        </div>
+
+                        <div>
+                            <input id="western" class="textbox" type="checkbox" value="Western">
+                            <label for="western">Western</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <h3>Poster:</h3>
+                    <input id="poster" class="textbox" type="text" placeholder="Enter the URL of the Poster">
+                </div>
+                
+                <div class="buttons">
+                    <input id="createButton" class="form_btn create" type="button" value="Create">
+                    <input id="resetButton" class="form_btn reset" type="button">
+                </div>
+            </form>
+            
+        </div>
+    </main>
+
+    <script src="../public/bundle.js"></script>
+
+    <footer>
+        <p>All Rights Reserved. Juan Carlos Alvarez Martinez. <span>&copy; MovLoom.</span> 2024.</p>
+    </footer>
+    
+</body>
+</html>
