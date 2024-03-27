@@ -1,5 +1,8 @@
 <h1>MovLoom</h1>
+
 MovLoom is a proyect comprising two components. The back component offers a RESTful API for managing movie data. Meanwhile, the front component provides an intuitive user interface, enabling user to interact seamlessly with the movie database and explire movie details in a visually appealing format.
+
+<img src="./assets/home.png" alt="Imagen 1" style="border-radius: .5rem">
 
 <h2>Instalation</h2>
 To deploy the project locally, proceed as follows:
