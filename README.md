@@ -2,7 +2,7 @@
 
 MovLoom is a proyect comprising two components. The back component offers a RESTful API for managing movie data. Meanwhile, the front component provides an intuitive user interface, enabling user to interact seamlessly with the movie database and explire movie details in a visually appealing format.
 
-<img src="./assets/home.png" alt="Imagen 1" style="border-radius: .5rem">
+<img src="./assets/home.png" alt="Imagen 1">
 
 <h2>Instalation</h2>
 To deploy the project locally, proceed as follows:
@@ -34,10 +34,10 @@ Once both applications are operational, access the frontend through your preferr
 
 To contribute to this project, adhere to the following guidelines:
 1. Fork the repository to your GitHub account.
-2. Create a new branch (git checkout -b feature/new-feature).
-3. Implement your changes and commit them (git commit -m 'Add new feature').
-4. Push the branch to your GitHub repository (git push origin feature/new-feature).
-5. Open a new Pull Request to merge your changes into the main project.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+4. Implement your changes and commit them (`git commit -m 'Add new feature'`).
+5. Push the branch to your GitHub repository (`git push origin feature/new-feature`).
+6. Open a new Pull Request to merge your changes into the main project.
 
 <h2>Contact</h2>
 
