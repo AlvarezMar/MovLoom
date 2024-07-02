@@ -58,7 +58,7 @@ function featuredGenerator({title, year, director, duration, rate, poster}){
     return movie;
 }
 
-const URL = 'https://movloom.onrender.com';
+const URL = 'https://movloom.onrender.com/movies';
 
 async function getMovies(){
     try {
