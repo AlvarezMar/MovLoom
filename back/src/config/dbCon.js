@@ -7,7 +7,7 @@ const dbCon = async () => {
         await mongoose.connect(process.env.MONGO_URI);
         
     } catch (error) {
-        console.log('No es posible acceder a la base de datos.');   
+        console.log('No es posible acceder a la base de datos.', error.message);   
     }
 }
 
