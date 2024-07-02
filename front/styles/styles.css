@@ -85,7 +85,7 @@ a:hover{
     outline: none;
     max-width: 950px;
     margin-bottom: 1rem;
-    background-image: url('../assets/search.svg');
+    background-image: url('../assets/navBar/search.svg');
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }

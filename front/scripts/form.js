@@ -47,7 +47,7 @@ function handleClick(){
 
     if(error) return alert(error);
 
-    const URL = "http://localhost:3000/movies";
+    const URL = "https://movloom.onrender.com";
 
     axios.post(URL, pelicula)
     .then(() => {alert('Película creada y ya disponible.')})
