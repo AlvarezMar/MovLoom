@@ -1,4 +1,5 @@
 module.exports = {
+    mode: 'production',
     entry: './scripts/index.js', //Punto de entrada de la aplicación.
 
     output: {
